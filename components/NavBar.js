@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function NavBar() {
   return (
-    <div className="flex justify-center items-center w-full text-white font-semibold bg-zinc-500/40 backdrop-blur-lg sticky top-0">
+    <div className="sticky top-0 flex w-full items-center justify-center bg-zinc-500/40 font-semibold text-white backdrop-blur-lg">
       <ul className="flex">
         <li className="p-4">Home</li>
         <li className="p-4">Statistics</li>
