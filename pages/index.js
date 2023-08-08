@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import NavBar from "@/components/NavBar";
 import Quotes from "@/components/Quotes";
+import SDG from "@/components/SDG";
 import Head from "next/head";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <NavBar />
       <Hero />
       <Quotes />
+      <SDG />
     </main>
   );
 }
