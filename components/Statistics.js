@@ -1,33 +1,18 @@
-import React from 'react';
+import React from "react";
+import Image from "next/image";
 
-const FactComponent = ({ facts }) => {
+export function Stat({ fact }) {
   return (
-    <div>
-      {facts.map((fact, index) => (
-        <FactItem key={index} fact={fact} />
-      ))}
+    <div className="h-[593px] w-full relative items-center">
+      <div className="text-orange-500 text-8xl font-bold leading-96px z-50">
+        459.9 metric tons
+      </div>
+
+      <Image
+        className="z-20 opacity-30"
+        src="/images/fact.png"
+        layout="fill"
+      />
     </div>
   );
-};
-
-const FactItem = ({ fact }) => {
-  return <div>{fact}</div>;
-};
-
-// TEST
-const factsArray = [
-  'The sun is a star.',
-  'Earth is the third planet from the sun.',
-  'Water boils at 100 degrees Celsius (212 degrees Fahrenheit).',
-];
-
-const App = () => {
-  return (
-    <div>
-      <h1>Random Facts</h1>
-      <FactComponent facts={factsArray} />
-    </div>
-  );
-};
-
-export default App;
+}
