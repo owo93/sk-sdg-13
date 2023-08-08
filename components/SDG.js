@@ -3,7 +3,9 @@ import UN from "/public/images/UN.png";
 
 export default function SDG() {
   return (
-    <div className="w-full bg-white p-4">
+    <div
+      className="w-full bg-white p-4"
+      id="init">
       <div className="mx-auto grid max-w-[1240px] gap-4 rounded-3xl bg-lime-950 p-8 text-white md:grid-cols-2">
         <Image
           className="mx-auto w-[600px] rounded-2xl"

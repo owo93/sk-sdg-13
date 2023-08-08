@@ -4,13 +4,13 @@ import background from "/public/images/BG.png";
 
 export default function Hero() {
   return (
-    <div>
+    <div id="home">
       <div className="mx-auto mt-[-100px] flex h-screen w-full max-w-[800px] flex-col justify-center p-5 text-left">
         <Typed
           strings={[
             "Rivers all around the country are being polluted by",
-            "We are emitting more carbon dioxide because of",
-            "Ecosystems are destroyed because of",
+            "",
+            "Ecosystems are being destroyed by",
             "The future of our country depends on",
           ]}
           typeSpeed={50}
