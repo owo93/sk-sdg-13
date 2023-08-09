@@ -14,19 +14,12 @@ export default function SDG() {
         />
         <div className="flex flex-col justify-center">
           <p className="font-bold text-white">ANY PLANS?</p>
-          <h1 className="py-2 text-2xl font-bold sm:text-3xl md:text-4xl">
+          <h1 className="py-2 text-4xl font-bold sm:text-3xl md:text-4xl">
             COMES IN SDG13
           </h1>
-          <p className="text-white/60">
+          <p className="text-2xl text-white/60">
             SDG 13 is a United Nations Sustainable Development Goal that aims to
-            take urgent action to combat climate change and its impacts. The
-            goal has 10 targets, which focus on strengthening the ability of
-            countries to deal with the impacts of climate change, increasing the
-            ability to adapt to the adverse impacts of climate change, improving
-            education and awareness-raising on climate change, and providing
-            financial resources to support climate action in developing
-            countries. By working together, we can achieve this goal and build a
-            more sustainable future for all.
+            take urgent action to combat climate change and its impacts.
           </p>
         </div>
       </div>

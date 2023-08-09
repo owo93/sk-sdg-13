@@ -6,6 +6,9 @@ export default function Hero() {
   return (
     <div id="home">
       <div className="mx-auto mt-[-100px] flex h-screen w-full max-w-[800px] flex-col justify-center p-5 text-left">
+        <h1 className="bg-gradient-to-b from-yellow-300 via-red-500 to-pink-500 bg-clip-text py-4 text-9xl font-bold text-transparent">
+          YOU
+        </h1>
         <Typed
           strings={[
             "Rivers all around the country are being polluted by",
@@ -18,9 +21,6 @@ export default function Hero() {
           loop
           className="h-auto text-5xl font-bold text-white"
         />
-        <h1 className="bg-gradient-to-b from-yellow-300 via-red-500 to-pink-500 bg-clip-text py-4 text-7xl font-bold text-transparent">
-          You.
-        </h1>
       </div>
       <Image
         className="-z-20 object-cover"

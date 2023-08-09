@@ -1,3 +1,4 @@
+import Card from "@/components/Card";
 import Hero from "@/components/Hero";
 import NavBar from "@/components/NavBar";
 import Quotes from "@/components/Quotes";
@@ -12,8 +13,8 @@ export default function Home() {
         <title>SK SDG 13</title>
       </Head>
       <Hero />
-      <Quotes />
       <SDG />
+      <Quotes />
     </Layout>
   );
 }
