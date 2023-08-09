@@ -7,18 +7,18 @@ export default function NavBar() {
      font-semibold text-white backdrop-blur-lg">
       <ul className="flex gap-10">
         <a
-          className="p-4"
+          className="p-6"
           href="#home">
           Home
         </a>
-        <li className="p-4">Statistics</li>
+        <li className="p-6">Statistics</li>
         <a
-          className="p-4"
+          className="p-6"
           href="#init">
           Initiatives
         </a>
-        <li className="p-4">About Us</li>
-        <li className="p-4">Contact</li>
+        <li className="p-6">About Us</li>
+        <li className="p-6">Contact</li>
       </ul>
     </div>
   );
