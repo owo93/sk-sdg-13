@@ -17,11 +17,11 @@ export default function Energy() {
                     </p>
                     <p className="text-2xl text-zinc-400">First, it will help to reduce agricultural burning, which is a major source of air pollution in Thailand. Second, it will create jobs in the agricultural sector. Third, it will help to promote the use of renewable energy in Thailand.</p>
                     </article>
-                    <Image src={"/images/energy1.png"} width={440} height={330}/>
+                    <Image src={"/images/energy/energy1.png"} width={440} height={330}/>
                 </div>
 
                 <div className="justify-start items-center gap-14 inline-flex flex-1 px-24 pb-16">
-                    <Image src={"/images/energy2.png"} width={440} height={330}/>
+                    <Image src={"/images/energy/energy2.png"} width={440} height={330}/>
                     <article className="prose max-w-full flex-col">
                     <h3 className="h-11 text-white text-[40px] font-bold">Alternative Energy Development Plan (AEDP): </h3>
                     <p className="text-2xl text-zinc-400">
@@ -46,11 +46,11 @@ AEDP is a comprehensive plan that aims to make Thailand a leader in the use of r
 The FiT scheme has been successful in promoting the development of renewable energy projects in Thailand. In the past few years, there has been a significant increase in the number of renewable energy projects that have been developed under the FiT scheme.
                     </p>
                     </article>
-                    <Image src={"/images/energy3.png"} width={440} height={330}/>
+                    <Image src={"/images/energy/energy3.png"} width={440} height={330}/>
                 </div>
 
                 <div className="justify-start items-center gap-14 inline-flex flex-1 px-24 pb-16">
-                    <Image src={"/images/energy4.png"} width={440} height={330}/>
+                    <Image src={"/images/energy/energy4.png"} width={440} height={330}/>
                     <article className="prose max-w-full flex-col">
                     <h3 className="h-11 text-white text-[40px] font-bold">National Solar Rooftop Program:</h3>
                     <p className="text-2xl text-zinc-400">
@@ -72,11 +72,11 @@ The National Solar Rooftop Program is designed to help reduce the demand for ele
 The Biomass Power Generation Program is designed to help reduce the demand for fossil fuels in Thailand. The program is also expected to create jobs and boost the economy of Thailand.
                     </p>
                     </article>
-                    <Image src={"/images/energy5.png"} width={440} height={330}/>
+                    <Image src={"/images/energy/energy5.png"} width={440} height={330}/>
                 </div>
 
                 <div className="justify-start items-center gap-14 inline-flex flex-1 px-24 pb-16">
-                    <Image src={"/images/energy6.png"} width={440} height={330}/>
+                    <Image src={"/images/energy/energy6.png"} width={440} height={330}/>
                     <article className="prose max-w-full flex-col">
                     <h3 className="h-11 text-white text-[40px] font-bold">Wind Power Development Program:</h3>
                     <p className="text-2xl text-zinc-400">
