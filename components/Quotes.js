@@ -18,7 +18,7 @@ export default function Quotes({ quotes }) {
 
   return (
     <div className="mx-auto flex w-full flex-col items-center p-4 pt-20">
-      <div className="inline-flex h-[240px] w-[600px] flex-col items-start justify-start gap-4 overflow-hidden rounded-2xl bg-white p-6 shadow-lg">
+      <div className="inline-flex h-[240px] min-w-[300px] flex-col items-start justify-start gap-4 overflow-hidden rounded-2xl bg-white p-6 shadow-lg">
         <div className="flex items-center gap-4">
           <Image
             className="h-16 w-16 rounded-full object-cover"
