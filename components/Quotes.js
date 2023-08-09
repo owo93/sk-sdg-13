@@ -18,7 +18,7 @@ export default function Quotes({ quotes }) {
 
   return (
     <div className="mx-auto flex w-full flex-col items-center p-4 pt-20">
-      <div className="inline-flex h-[240px] min-w-[300px] flex-col items-start justify-start gap-4 overflow-hidden rounded-2xl bg-white p-6 shadow-lg">
+      <div className="inline-flex h-[240px] min-w-[300px] flex-col items-start justify-start gap-4 overflow-hidden rounded-2xl border border-gray-200 bg-white p-6 shadow-md">
         <div className="flex items-center gap-4">
           <Image
             className="h-16 w-16 rounded-full object-cover"
@@ -43,7 +43,7 @@ export default function Quotes({ quotes }) {
       <div className="mt-4 flex gap-4">
         <button
           onClick={handlePrevClick}
-          className="rounded-lg bg-gray-200 px-4 py-2">
+          className="rounded-lg bg-gray-200 px-4 py-2 ">
           &lt; Prev
         </button>
         <button
