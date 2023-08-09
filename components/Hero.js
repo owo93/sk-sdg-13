@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import Typed from "react-typed";
-import background1 from "/public/images/HeroBG.png";
+import background1 from "/public/images/BG.png";
 import background2 from "/public/images/HeroBG2.png";
 import background3 from "/public/images/HeroBG3.png";
 
