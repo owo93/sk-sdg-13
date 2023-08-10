@@ -1,17 +1,17 @@
 import React from "react";
-import Image from "next/image";
 
-export function Stat({ fact }) {
+export default function Statistics({ text, title, body }) {
   return (
-    <div className="h-auto w-full relative items-center jus">
-      <div className="text-orange-500 text-4xl font-bold leading-96px z-50 p-4">
-        459.9 metric tons
+    <div className="w-full h-96 p-24 flex-col justify-center items-start inline-flex">
+      <div className="text-white text-opacity-80 text-3xl font-light">
+        {text}
       </div>
-      <Image
-        className="z-20 opacity-30"
-        src="/images/fact.png"
-        layout="fill"
-      />
+      <div className="text-orange-500 text-6xl font-bold">{title}</div>
+      <div>
+        <span className="text-white text-opacity-80 text-3xl font-light leading-10">
+          {body}
+        </span>
+      </div>
     </div>
   );
 }
