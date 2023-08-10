@@ -1,14 +1,14 @@
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
-import Typed from "react-typed";
+import ReactTyped from "react-typed";
 import background1 from "/public/images/BG.png";
 import background2 from "/public/images/HeroBG2.png";
 import background3 from "/public/images/HeroBG3.png";
 
 const typedStrings = [
-  "Rivers all around the country are being polluted by",
-  "Ecosystems are being destroyed by",
-  "The future of our country depends on",
+  "are increasing the emissions in Rama IX rd.",
+  "are destroying the ecosystems in Chiang Mai",
+  "need to start taking action, climate action",
 ];
 
 const backgrounds = [background1, background2, background3]; // List of background images
@@ -16,15 +16,19 @@ const backgrounds = [background1, background2, background3]; // List of backgrou
 export default function Hero() {
   const [currentBackgroundIndex, setCurrentBackgroundIndex] = useState(0);
 
+  const isLastString = currentBackgroundIndex === backgrounds.length - 1;
+
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentBackgroundIndex(
-        (prevIndex) => (prevIndex + 1) % backgrounds.length,
-      );
+      if (!isLastString) {
+        setCurrentBackgroundIndex(
+          (prevIndex) => (prevIndex + 1) % backgrounds.length,
+        );
+      }
     }, 5000); // Change background every 5 seconds
 
     return () => clearInterval(interval);
-  }, []);
+  }, [isLastString]);
 
   return (
     <div className="relative -mt-20 h-screen">
@@ -42,11 +46,11 @@ export default function Hero() {
         <h1 className="bg-gradient-to-b from-yellow-300 via-red-500 to-pink-500 bg-clip-text py-4 text-9xl font-bold text-transparent">
           YOU
         </h1>
-        <Typed
+        <ReactTyped
           strings={typedStrings}
           typeSpeed={50}
           backSpeed={20}
-          loop
+          showCursor={false}
           className="h-auto text-5xl font-bold text-neutral-200"
         />
       </div>

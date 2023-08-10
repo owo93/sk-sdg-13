@@ -5,8 +5,8 @@ import React from "react";
 export default function SDG({ color, question, title, imageSrc, details }) {
   return (
     <div
-      className={`w-full bg-${color}`}
-      id="init">
+      className={` w-full bg-${color}`}
+      id="solution">
       <div className="mx-auto px-4 text-neutral-200 sm:px-8 md:px-12 lg:px-16 xl:px-20">
         <div
           className={`grid w-full gap-4 bg-lime-950 py-8 sm:gap-8 md:grid-cols-2`}>

@@ -16,12 +16,16 @@ export default function NavBar() {
           <li className="p-4 lg:p-6">
             <Link href="/">Home</Link>
           </li>
-          <li className="p-4 lg:p-6">Statistics</li>
+          <li className="p-4 lg:p-6">
+            <Link href="#stats">Statistics</Link>
+          </li>
+          <li className="p-4 lg:p-6">
+            <Link href="#solution">Solution</Link>
+          </li>
           <li className="p-4 lg:p-6">
             <Link href="#init">Initiatives</Link>
           </li>
           <li className="p-4 lg:p-6">About Us</li>
-          <li className="p-4 lg:p-6">Contact</li>
         </ul>
       </div>
       <div className="sm:hidden">

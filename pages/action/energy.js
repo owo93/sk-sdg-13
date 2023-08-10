@@ -1,5 +1,5 @@
-import Layout from "@/components/layout";
 import Image from "next/image";
+import Layout from "/pages/action/layout";
 
 export default function Energy() {
   return (

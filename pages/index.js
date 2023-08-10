@@ -94,23 +94,31 @@ export default function Home() {
         imageSrc={UN}
         details="SDG 13 is Sustainable Development Goal 13: Climate Action. It aims to take urgent action to combat climate change and its impacts. And Thailand is a vulnerable country to climate change, so SDG13 will help taking steps to."
       />
-      <div className="px-12 pb-8 pt-24 text-neutral-900">
-        <p className="text-base">Around the country</p>
-        <h1 className="text-2xl font-semibold">
-          Initiatives to combat climate change in Thailand
-        </h1>
+      <div
+        className="h-auto border-b border-black pb-24"
+        id="init">
+        <div className="px-12 pb-8 pt-24 text-neutral-900">
+          <p className="text-base">Around the country</p>
+          <h1 className="text-2xl font-semibold">
+            Initiatives to combat climate change in Thailand
+          </h1>
+        </div>
+        <div className="grid grid-cols-1 gap-4 pt-4 sm:gap-2 md:grid-cols-2 md:px-8 lg:grid-cols-3 lg:px-24">
+          {initiatives.map((initiative, index) => (
+            <Card
+              key={index}
+              {...initiative}
+            />
+          ))}
+        </div>
       </div>
-      <div className="grid grid-cols-1 gap-4 pt-4 sm:gap-2 md:grid-cols-2 md:px-8 lg:grid-cols-3 lg:px-24">
-        {initiatives.map((initiative, index) => (
-          <Card
-            key={index}
-            {...initiative}
-          />
-        ))}
+      <div>
+        <div className="px-12 pb-8 pt-24 text-neutral-900">
+          <p className="text-base">Important public figures of Thailand</p>
+          <h1 className="text-2xl font-semibold">What people are saying</h1>
+        </div>
+        <Quotes quotes={quotesData} />
       </div>
-
-      {/* Initiatives here*/}
-      <Quotes quotes={quotesData} />
     </Layout>
   );
 }
