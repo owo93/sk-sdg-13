@@ -27,7 +27,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <div className="relative h-screen">
+    <div className="relative -mt-20 h-screen">
       <div className="absolute inset-0">
         <Image
           src={backgrounds[currentBackgroundIndex]}
@@ -38,7 +38,7 @@ export default function Hero() {
         />
         <div className="absolute inset-0 bg-black opacity-20 transition-opacity duration-1000"></div>
       </div>
-      <div className="relative mx-auto mt-[-80px] flex h-full max-w-[800px] flex-col justify-center p-5 text-left">
+      <div className="relative mx-auto flex h-full max-w-[800px] flex-col justify-center p-5 text-left">
         <h1 className="bg-gradient-to-b from-yellow-300 via-red-500 to-pink-500 bg-clip-text py-4 text-9xl font-bold text-transparent">
           YOU
         </h1>
