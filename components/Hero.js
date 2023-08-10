@@ -47,7 +47,7 @@ export default function Hero() {
           typeSpeed={50}
           backSpeed={20}
           loop
-          className="h-auto text-5xl font-bold text-white"
+          className="h-auto text-5xl font-bold text-neutral-200"
         />
       </div>
     </div>
