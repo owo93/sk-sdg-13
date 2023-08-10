@@ -23,5 +23,29 @@ const StatisticsSection = ({ text, title, body, imageSrc }) => {
     </div>
   );
 };
+export default function Home() {
+  return (
+    <div>
+      <StatisticsSection
+        text="Section 1 Text"
+        title="Statistics Title 1"
+        body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Section 1"
+        imageSrc="/images/BG1.jpeg"
+      />
+      <StatisticsSection
+        text="Section 2 Text"
+        title="Statistics Title 2"
+        body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Section 2"
+        imageSrc="/images/BG2.jpeg"
+      />
+      <StatisticsSection
+        text="Section 3 Text"
+        title="Statistics Title 3"
+        body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Section 3"
+        imageSrc="/images/BG3.jpeg"
+      />
+    </div>
+  );
+}
 
 export default StatisticsSection;
