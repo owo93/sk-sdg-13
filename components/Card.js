@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function Card({ title, body }) {
@@ -7,8 +8,8 @@ export default function Card({ title, body }) {
         {title}
       </p>
       <p className="mb-3 font-normal text-gray-700">{body}</p>
-      <a
-        href="#"
+      <Link
+        href="/action/energy"
         className="inline-flex items-center rounded-lg bg-blue-700 px-3 py-2 text-center text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300">
         Read more
         <svg
@@ -25,7 +26,7 @@ export default function Card({ title, body }) {
             d="M1 5h12m0 0L9 1m4 4L9 9"
           />
         </svg>
-      </a>
+      </Link>
     </div>
   );
 }

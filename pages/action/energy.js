@@ -52,7 +52,7 @@ export default function Energy() {
             <p className="text-2xl text-zinc-400">
               AEDP is a government plan to promote the use of renewable energy
               in Thailand. The plan aims to increase the share of renewable
-              energy in Thailand's energy mix to 30% by 2037.
+              energy in Thailand`&apos;`s energy mix to 30% by 2037.
             </p>
             <p className="text-2xl text-zinc-400">
               AEDP identifies five main renewable energy sources: biomass,
