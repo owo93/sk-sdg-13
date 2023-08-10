@@ -3,7 +3,6 @@ import NavBar from "@/components/NavBar";
 import Quotes from "@/components/Quotes";
 import Statistics from "@/components/Statistics";
 import Head from "next/head";
-import StatisticsSection from "./StatisticsSection";
 
 export default function Home() {
   return (
