@@ -4,9 +4,9 @@ import Layout from "/pages/action/layout";
 export default function Energy() {
   return (
     <Layout>
-      <div className="bg-neutral-800">
+      <div className="-mt-20 bg-neutral-800">
         <div className="items-center py-10">
-          <h1 className="text-center text-7xl font-extrabold text-white">
+          <h1 className="pt-20 text-center text-7xl font-extrabold text-white">
             Alternative Energy
           </h1>
         </div>

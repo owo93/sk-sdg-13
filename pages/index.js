@@ -5,7 +5,8 @@ import SDG from "@/components/SDG";
 import Statistics from "@/components/Statistics";
 import Layout from "@/components/layout";
 import Head from "next/head";
-import StatBackground1 from "/public/images/StatBG.png";
+import React from "react";
+
 import UN from "/public/images/UN.png";
 
 export default function Home() {

@@ -4,9 +4,9 @@ import Image from "next/image";
 export default function Waste() {
   return (
     <Layout>
-      <div className="bg-neutral-800">
+      <div className="-mt-20 bg-neutral-800">
         <div className="items-center py-10">
-          <h1 className="text-center text-7xl font-extrabold text-white">
+          <h1 className="pt-20 text-center text-7xl font-extrabold text-white">
             Waste management
           </h1>
         </div>
@@ -114,10 +114,10 @@ export default function Waste() {
               water pollution, and solid waste management in Thailand.
             </p>
             <p className="text-2xl text-zinc-400">
-              The PCD is a key player in the government's efforts to reduce
-              waste in Thailand. The PCD's programs and enforcement efforts are
-              making a difference in reducing waste and raising awareness about
-              the importance of sustainability.
+              The PCD is a key player in the government&apos;s efforts to reduce
+              waste in Thailand. The PCD&apos;s programs and enforcement efforts
+              are making a difference in reducing waste and raising awareness
+              about the importance of sustainability.
             </p>
           </article>
         </div>
