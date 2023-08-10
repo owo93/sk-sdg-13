@@ -5,6 +5,7 @@ import SDG from "@/components/SDG";
 import Layout from "@/components/layout";
 import Head from "next/head";
 import UN from "/public/images/UN.png";
+import Statistics from "@/components/Statistics";
 
 export default function Home() {
   const quotesData = [
@@ -80,6 +81,21 @@ export default function Home() {
           Initiatives to combat climate change in Thailand
         </h1>
       </div>
+      <Statistics
+        text="Thailand emitted around"
+        title="459.9 metric tons"
+        body="of carbon emissions in 2022 ✈️"
+      />
+      <Statistics
+        text="Thailand created around"
+        title="26 million metric tons"
+        body="of waste in 2022 🏝️"
+      />
+      <Statistics
+        text="There were"
+        title="2,837 fire alerts reported"
+        body="in 1 year 🚒"
+      />
       <div className="grid grid-cols-1 gap-4 pt-4 sm:gap-2 md:grid-cols-2 md:px-8 lg:grid-cols-3 lg:px-24">
         {initiatives.map((initiative, index) => (
           <Card
@@ -90,7 +106,6 @@ export default function Home() {
           />
         ))}
       </div>
-      {/* Statistics here*/}
       {/* Initiatives here*/}
       <Quotes quotes={quotesData} />
     </Layout>
