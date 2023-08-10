@@ -10,7 +10,7 @@ export default function NavBar() {
   };
 
   return (
-    <div className="sticky top-0 z-50 flex w-full items-center justify-center bg-black/30 font-semibold text-neutral-300 backdrop-blur-lg">
+    <div className="sticky top-0 z-50 flex w-full items-center justify-center bg-black/40 font-semibold text-neutral-300 backdrop-blur-lg">
       <div className="hidden flex-col gap-4 sm:flex sm:flex-row lg:gap-10">
         <ul className="flex">
           <li className="p-4 lg:p-6">
@@ -24,6 +24,9 @@ export default function NavBar() {
           </li>
           <li className="p-4 lg:p-6">
             <Link href="#init">Initiatives</Link>
+          </li>
+          <li className="p-4 lg:p-6">
+            <Link href="#quotes">Quotes</Link>
           </li>
           <li className="p-4 lg:p-6">About Us</li>
         </ul>
@@ -49,14 +52,20 @@ export default function NavBar() {
               isMenuOpen ? "items-start" : "items-center"
             } gap-4`}>
             <li className="p-4 lg:p-6">
-              <Link href="#home">Home</Link>
+              <Link href="/">Home</Link>
             </li>
-            <li className="p-4 lg:p-6">Statistics</li>
+            <li className="p-4 lg:p-6">
+              <Link href="#stats">Statistics</Link>
+            </li>
+            <li className="p-4 lg:p-6">
+              <Link href="#solution">Solution</Link>
+            </li>
             <li className="p-4 lg:p-6">
               <Link href="#init">Initiatives</Link>
             </li>
-            <li className="p-4 lg:p-6">About Us</li>
-            <li className="p-4 lg:p-6">Contact</li>
+            <li className="p-4 lg:p-6">
+              <Link href="#quotes">Quotes</Link>
+            </li>
           </ul>
         </div>
       </div>

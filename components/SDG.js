@@ -27,7 +27,7 @@ export default function SDG({ color, question, title, imageSrc, details }) {
             <Link
               target="_blank"
               href="https://sdgs.un.org/goals/goal13"
-              className="mt-4 inline-block w-fit rounded-lg bg-blue-700 px-4 py-2 text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300">
+              className="mt-4 inline-block w-fit rounded-lg bg-orange-700 px-4 py-2 text-white hover:bg-orange-800 focus:outline-none focus:ring-4 focus:ring-orange-300">
               Learn More
             </Link>
           </div>

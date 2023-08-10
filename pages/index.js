@@ -10,6 +10,24 @@ import React from "react";
 import UN from "/public/images/UN.png";
 
 export default function Home() {
+  const initiatives = [
+    {
+      title: "Alternative Energy",
+      body: "Alternative energy allows us to transition from polluting fossil fuels to significantly cleaner renewable energy.",
+      actions: ["/action/energy"],
+    },
+    {
+      title: "Waste Management",
+      body: "Good waste management enables us to appropriately dispose of trash that would otherwise leak and harm the environment.",
+      actions: ["/action/waste"],
+    },
+    {
+      title: "Creating a better enviroment",
+      body: "Good environment is necessary for maintaining good mental and physicals health.",
+      actions: ["/action/environment"],
+    },
+    // Add more initiatives as needed
+  ];
   const quotesData = [
     {
       avatar: "/images/avatar1.png",
@@ -45,23 +63,6 @@ export default function Home() {
         "By acknowledging our profound interrelation with nature and appreciating even the smallest overlooked aspects, we cultivate the readiness to contribute positively to our world.",
     },
   ];
-  const initiatives = [
-    {
-      title: "Alternative Energy",
-      body: "Alternative energy allows us to transition from polluting fossil fuels to significantly cleaner renewable energy.",
-      imageUrl: "",
-    },
-    {
-      title: "Waste Management",
-      body: "Good waste management enables us to appropriately dispose of trash that would otherwise leak and harm the environment.",
-      imageUrl: "",
-    },
-    {
-      title: "Creating a better enviroment",
-      body: "Good environment is necessary for maintaining good mental and physicals health.",
-    },
-    // Add more initiatives as needed
-  ];
 
   return (
     <Layout>
@@ -69,32 +70,34 @@ export default function Home() {
         <title>SK SDG 13</title>
       </Head>
       <Hero />
-      <Statistics
-        text="Thailand emitted around"
-        title="459.9 metric tons"
-        body="of carbon emissions in 2022 ✈️"
-        imageIndex={0}
-      />
-      <Statistics
-        text="Thailand created around"
-        title="26 million metric tons"
-        body="of waste in 2022 🏝️"
-        imageIndex={1}
-        alignRight
-      />
-      <Statistics
-        text="There were"
-        title="2,837 fire alerts reported"
-        body="in 1 year 🚒"
-        imageIndex={2}
-      />
-      <SDG
-        color="lime-950"
-        question="ANY PLANS?"
-        title="COMES IN SDG13"
-        imageSrc={UN}
-        details="SDG 13 is Sustainable Development Goal 13: Climate Action. It aims to take urgent action to combat climate change and its impacts. And Thailand is a vulnerable country to climate change, so SDG13 will help taking steps to."
-      />
+      <div id="stats">
+        <Statistics
+          text="Thailand emitted around"
+          title="459.9 metric tons"
+          body="of carbon emissions in 2022 ✈️"
+          imageIndex={0}
+        />
+        <Statistics
+          text="Thailand created around"
+          title="26 million metric tons"
+          body="of waste in 2022 🏝️"
+          imageIndex={1}
+          alignRight
+        />
+        <Statistics
+          text="There were"
+          title="2,837 fire alerts reported"
+          body="in 1 year 🚒"
+          imageIndex={2}
+        />
+        <SDG
+          color="lime-950"
+          question="ANY PLANS?"
+          title="COMES IN SDG13"
+          imageSrc={UN}
+          details="SDG 13 is Sustainable Development Goal 13: Climate Action. It aims to take urgent action to combat climate change and its impacts. And Thailand is a vulnerable country to climate change, so SDG13 will help taking steps to."
+        />
+      </div>
       <div
         className="h-auto border-b border-black pb-24"
         id="init">
@@ -113,7 +116,7 @@ export default function Home() {
           ))}
         </div>
       </div>
-      <div>
+      <div id="quotes">
         <div className="px-12 pb-8 pt-24 text-neutral-900">
           <p className="text-base">Important public figures of Thailand</p>
           <h1 className="text-2xl font-semibold">What people are saying</h1>
