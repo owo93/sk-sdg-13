@@ -58,17 +58,7 @@ export default function Home() {
             imageIndex={2}
           />
         </div>
-        <div className="mt-8">
-          <SDG
-            color="lime-950"
-            question="ANY PLANS?"
-            title="COMES IN SDG13"
-            imageSrc={UN}
-            details="SDG 13 is Sustainable Development Goal 13: Climate Action. It aims to take urgent action to combat climate change and its impacts. And Thailand is a vulnerable country to climate change, so SDG13 will help taking steps to."
-          />
-        </div>
       </div>
-      <hr className="my-8" />
       <div //initiatives
         id="init"
         className="mt-8">
@@ -87,7 +77,15 @@ export default function Home() {
           ))}
         </div>
       </div>
-      <hr className="my-8" />
+      <div className="mt-8">
+        <SDG
+          color="lime-950"
+          question="ANY PLANS?"
+          title="COMES IN SDG13"
+          imageSrc={UN}
+          details="SDG 13 is Sustainable Development Goal 13: Climate Action. It aims to take urgent action to combat climate change and its impacts. And Thailand is a vulnerable country to climate change, so SDG13 will help taking steps to."
+        />
+      </div>
       <div //quotes
         id="quotes"
         className="mt-8 h-[500px]">
@@ -97,7 +95,6 @@ export default function Home() {
         </div>
         <Quotes />
       </div>
-      <hr className="my-8" />
     </Layout>
   );
 }
