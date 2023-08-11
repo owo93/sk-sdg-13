@@ -23,7 +23,7 @@ export default function SDG({ color, question, title, imageSrc, details }) {
           <div className="flex flex-col justify-center text-left md:order-last">
             <p className="font-semibold">{question}</p>
             <h1 className="py-2 text-4xl font-bold">{title}</h1>
-            <p className="text-xl text-neutral-400">{details}</p>
+            <p className="text-neutral-400">{details}</p>
             <Link
               target="_blank"
               href="https://sdgs.un.org/goals/goal13"

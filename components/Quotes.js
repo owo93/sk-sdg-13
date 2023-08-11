@@ -53,7 +53,7 @@ export default function Quotes() {
   const currentQuote = quotesData[currentQuoteIndex];
 
   return (
-    <div className="mx-auto flex w-full flex-col items-center p-4">
+    <div className="mx-auto flex w-full flex-col items-center">
       <div className="inline-flex max-h-[300px] w-[500px] flex-col items-start justify-start gap-4 overflow-hidden rounded-2xl border border-gray-200 bg-white p-6 shadow-md">
         <div className="flex items-center gap-4">
           <div className="relative h-16 w-16 overflow-hidden rounded-full">

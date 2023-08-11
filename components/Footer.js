@@ -8,7 +8,7 @@ import trust from "/public/images/trust.png";
 export default function Footer() {
   const names = ["Ike", "Trust", "Sun", "Peak", "Nasa"];
   const roles = [
-    "Developer",
+    "Lead Developer",
     "Project Manager & UI/UX",
     "Developer",
     "Developer",
@@ -18,7 +18,7 @@ export default function Footer() {
   const images = [ike, trust, sun, peak, nasa];
 
   return (
-    <div className="mx-auto w-full max-w-7xl items-center px-5 py-24 md:px-12 lg:px-16">
+    <div id="about" className="mx-auto w-full max-w-7xl items-center px-5 py-24 md:px-12 lg:px-16">
       <ul className="grid grid-cols-5 gap-4">
         {names.map((name, index) => (
           <li key={index}>

@@ -27,9 +27,6 @@ export default function Home() {
     },
     // Add more initiatives as needed
   ];
-  const quotesData = [
-    // ... your quotes data ...
-  ];
 
   return (
     <Layout>
@@ -41,7 +38,7 @@ export default function Home() {
       <div
         id="stats"
         className="mt-8">
-        <div className="grid grid-cols-3">
+        <div className="grid sm:grid-cols-1 lg:grid-cols-3">
           <Statistics
             text="Thailand emitted around"
             title="459.9 metric tons"
@@ -57,7 +54,7 @@ export default function Home() {
           <Statistics
             text="There were"
             title="2,837 fire alerts reported"
-            body="in 1 year 🚒"
+            body="in 2022 🚒"
             imageIndex={2}
           />
         </div>
@@ -71,11 +68,11 @@ export default function Home() {
           />
         </div>
       </div>
-
+      <hr className="my-8" />
       <div
         id="init"
         className="mt-8">
-        <div className="px-4 pb-8 pt-24 text-center md:px-8 lg:px-16">
+        <div className="pb-4 text-center md:px-8 lg:px-16">
           <p className="text-base">Around the country</p>
           <h1 className="text-2xl font-semibold">
             Initiatives to combat climate change in Thailand
@@ -93,13 +90,14 @@ export default function Home() {
       <hr className="my-8" />
       <div
         id="quotes"
-        className="mt-8">
-        <div className="px-4 pb-8 pt-24 text-center md:px-8 lg:px-16">
+        className="mt-8 h-[500px]">
+        <div className="pb-4 text-center md:px-8 lg:px-16">
           <p className="text-base">Important public figures of Thailand</p>
           <h1 className="text-2xl font-semibold">What people are saying</h1>
         </div>
-        <Quotes quotes={quotesData} />
+        <Quotes />
       </div>
+      <hr className="my-8" />
     </Layout>
   );
 }

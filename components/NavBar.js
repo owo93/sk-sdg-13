@@ -28,7 +28,9 @@ export default function NavBar() {
           <li className="p-4 lg:p-6">
             <Link href="#quotes">Quotes</Link>
           </li>
-          <li className="p-4 lg:p-6">About Us</li>
+          <li className="p-4 lg:p-6">
+            <Link href="#about">About</Link>
+          </li>
         </ul>
       </div>
       <div className="sm:hidden">
@@ -64,7 +66,7 @@ export default function NavBar() {
               <Link href="#init">Initiatives</Link>
             </li>
             <li className="p-4 lg:p-6">
-              <Link href="#quotes">Quotes</Link>
+              <Link href="#about">About</Link>
             </li>
           </ul>
         </div>
