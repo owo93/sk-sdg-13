@@ -68,7 +68,7 @@ export default function Home() {
           />
         </div>
       </div>
-
+      <hr className="my-8" />
       <div
         id="init"
         className="mt-8">
