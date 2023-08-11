@@ -54,8 +54,10 @@ export default function Statistics({
         className="-z-20"
         alt={title}
         src={imageSrc[imageIndex]}
+        quality={50}
         layout="fill"
         objectFit="cover"
+        loading="lazy"
       />
     </div>
   );
