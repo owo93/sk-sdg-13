@@ -69,12 +69,12 @@ export default function Quotes() {
             <div className="text-2xl font-semibold text-neutral-700">
               {currentQuote.name}
             </div>
-            <div className="text-base font-semibold text-neutral-400">
+            <div className="text-base font-semibold text-neutral-500">
               {currentQuote.occupation}
             </div>
           </div>
         </div>
-        <div className="max-h-[600px] max-w-[400px] overflow-y-auto text-2xl font-normal tracking-tight text-neutral-500">
+        <div className="max-h-[600px] max-w-[400px] overflow-y-auto text-2xl font-normal tracking-tight text-neutral-700">
           {currentQuote.details}
         </div>
       </div>

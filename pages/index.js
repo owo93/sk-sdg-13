@@ -62,7 +62,7 @@ export default function Home() {
       <div //initiatives
         id="init"
         className="mt-8">
-        <div className="pb-4 text-center md:px-8 lg:px-16">
+        <div className="pb-4 text-center text-neutral-500 md:px-8 lg:px-16">
           <p className="text-base">Around the country</p>
           <h1 className="text-2xl font-semibold">
             Initiatives to combat climate change in Thailand
@@ -88,8 +88,8 @@ export default function Home() {
       </div>
       <div //quotes
         id="quotes"
-        className="mt-8 h-[500px]">
-        <div className="pb-4 text-center md:px-8 lg:px-16">
+        className="mt-8 h-auto">
+        <div className="pb-4 text-center text-neutral-500 md:px-8 lg:px-16">
           <p className="text-base">Important public figures of Thailand</p>
           <h1 className="text-2xl font-semibold">What people are saying</h1>
         </div>
