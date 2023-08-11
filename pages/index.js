@@ -83,7 +83,7 @@ export default function Home() {
         </div>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:px-8 lg:grid-cols-3 lg:px-16">
           {initiatives.map((initiative, index) => (
-            <CardWithImage
+            <Card
               key={index}
               {...initiative}
             />

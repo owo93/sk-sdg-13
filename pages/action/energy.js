@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Layout from "/pages/action/layout";
+import Energy1 from "../../public/images/energy/energy1.png";
+import { ImageCard } from "@/components/Card";
 
 export default function Energy() {
   return (
@@ -167,6 +169,11 @@ export default function Energy() {
           </article>
         </div>
       </div>
+      <ImageCard
+        title={"Test"}
+        body={"Stufu"}
+        image={Energy1}
+      />
     </Layout>
   );
 }

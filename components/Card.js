@@ -39,3 +39,24 @@ export default function Card({ title, body, actions }) {
     </div>
   );
 }
+
+export function ImageCard({ title, body, image }) {
+  return (
+    <div className="p-4">
+      <div className="min-h-300 flex justify-center self-start rounded-lg border border-gray-200 bg-neutral-50 p-4 shadow-md">
+        <article className="prose prose-zinc w-8/12 self-start">
+          <h3 className="text-[40px] font-bold">{title}</h3>
+          <p className="text-2xl">{body}</p>
+        </article>
+        <div className="w-4/12 self-end">
+          <Image
+            src={image}
+            width={440}
+            height={330}
+            className="rounded-lg"
+          />
+        </div>
+      </div>
+    </div>
+  );
+}
