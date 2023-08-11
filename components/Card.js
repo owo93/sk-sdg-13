@@ -40,7 +40,7 @@ export default function Card({ title, body, actions }) {
   );
 }
 
-export function ImageCard({ title, body, image, varient }) {
+export function ImageCard({ title, body, bullet, image, varient }) {
   return (
     <div className="px-8 py-4">
       {varient == "text_left" && (
@@ -48,6 +48,15 @@ export function ImageCard({ title, body, image, varient }) {
           <article className="prose prose-zinc w-8/12 px-2">
             <h3 className="text-[40px] font-bold">{title}</h3>
             <p className="text-base">{body}</p>
+            <ul className="list-disc pl-6">
+              {bullet?.map((item, index) => (
+                <li
+                  key={index}
+                  className="text-base">
+                  {item}
+                </li>
+              ))}
+            </ul>
           </article>
           <div className="w-4/12 px-2">
             <Image
@@ -72,6 +81,15 @@ export function ImageCard({ title, body, image, varient }) {
           <article className="prose prose-zinc w-8/12 px-2">
             <h3 className="text-[40px] font-bold">{title}</h3>
             <p className="text-base">{body}</p>
+            <ul className="list-disc pl-6">
+              {bullet?.map((item, index) => (
+                <li
+                  key={index}
+                  className="text-base">
+                  {item}
+                </li>
+              ))}
+            </ul>
           </article>
         </div>
       )}
