@@ -4,8 +4,6 @@
 
 html {
   scroll-behavior: smooth;
-}
-
-body {
+  overflox-x: clip;
   background-color: #fefefe;
 }
