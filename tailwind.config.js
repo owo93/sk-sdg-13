@@ -16,9 +16,7 @@ module.exports = {
       ],
     },
     extend: {
-      backgroundImage: {
-        "hero-bg": "/public/images/quoteBG.png",
-      },
+      backgroundImage: {},
     },
   },
   plugins: [require("@tailwindcss/typography")],
