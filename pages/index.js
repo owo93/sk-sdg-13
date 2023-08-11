@@ -35,7 +35,7 @@ export default function Home() {
       </Head>
       <Hero />
 
-      <div
+      <div //statistics
         id="stats"
         className="mt-8">
         <div className="grid sm:grid-cols-1 lg:grid-cols-3">
@@ -69,7 +69,7 @@ export default function Home() {
         </div>
       </div>
       <hr className="my-8" />
-      <div
+      <div //initiatives
         id="init"
         className="mt-8">
         <div className="pb-4 text-center md:px-8 lg:px-16">
@@ -88,7 +88,7 @@ export default function Home() {
         </div>
       </div>
       <hr className="my-8" />
-      <div
+      <div //quotes
         id="quotes"
         className="mt-8 h-[500px]">
         <div className="pb-4 text-center md:px-8 lg:px-16">
