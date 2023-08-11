@@ -27,9 +27,6 @@ export default function Home() {
     },
     // Add more initiatives as needed
   ];
-  const quotesData = [
-    // ... your quotes data ...
-  ];
 
   return (
     <Layout>
@@ -41,7 +38,7 @@ export default function Home() {
       <div
         id="stats"
         className="mt-8">
-        <div className="grid grid-cols-3">
+        <div className="grid sm:grid-cols-1 lg:grid-cols-3">
           <Statistics
             text="Thailand emitted around"
             title="459.9 metric tons"
@@ -93,14 +90,14 @@ export default function Home() {
       <hr className="my-8" />
       <div
         id="quotes"
-        className="mt-8">
+        className="mt-8 h-[500px]">
         <div className="pb-4 text-center md:px-8 lg:px-16">
           <p className="text-base">Important public figures of Thailand</p>
           <h1 className="text-2xl font-semibold">What people are saying</h1>
         </div>
-        <Quotes quotes={quotesData} />
-        <hr className="my-8" />
+        <Quotes />
       </div>
+      <hr className="my-8" />
     </Layout>
   );
 }

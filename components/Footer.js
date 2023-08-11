@@ -8,7 +8,7 @@ import trust from "/public/images/trust.png";
 export default function Footer() {
   const names = ["Ike", "Trust", "Sun", "Peak", "Nasa"];
   const roles = [
-    "Developer",
+    "Lead Developer",
     "Project Manager & UI/UX",
     "Developer",
     "Developer",
