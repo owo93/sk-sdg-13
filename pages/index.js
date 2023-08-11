@@ -1,4 +1,4 @@
-import Card from "@/components/Card";
+import Card, { CardWithImage } from "@/components/Card";
 import Hero from "@/components/Hero";
 import Quotes from "@/components/Quotes";
 import SDG from "@/components/SDG";
@@ -41,7 +41,7 @@ export default function Home() {
       <div
         id="stats"
         className="mt-8">
-        <div className="grid grid-cols-1">
+        <div className="grid grid-cols-3">
           <Statistics
             text="Thailand emitted around"
             title="459.9 metric tons"
@@ -53,7 +53,6 @@ export default function Home() {
             title="26 million metric tons"
             body="of waste in 2022 🏝️"
             imageIndex={1}
-            alignRight
           />
           <Statistics
             text="There were"
@@ -84,7 +83,7 @@ export default function Home() {
         </div>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:px-8 lg:grid-cols-3 lg:px-16">
           {initiatives.map((initiative, index) => (
-            <Card
+            <CardWithImage
               key={index}
               {...initiative}
             />

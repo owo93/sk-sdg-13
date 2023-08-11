@@ -34,8 +34,8 @@ export default function Statistics({
       <div
         ref={ref} // Attach the ref to the container
         className={`inline-flex h-96 w-full flex-col justify-center p-24 text-neutral-300 ${containerClass}`}>
-        <div className="text-3xl font-light text-opacity-80">{text}</div>
-        <div className="text-5xl font-bold text-orange-500">
+        <div className="text-2xl font-light text-opacity-80">{text}</div>
+        <div className="text-4xl font-bold text-orange-500">
           {isTypingStarted && ( // Only render if typing animation has started
             <ReactTyped
               strings={[title]}
@@ -45,7 +45,7 @@ export default function Statistics({
           )}
         </div>
         <div>
-          <span className="leading-1 text-3xl font-light text-opacity-80">
+          <span className="leading-1 text-2xl font-light text-opacity-80">
             {body}
           </span>
         </div>
