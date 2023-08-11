@@ -22,7 +22,7 @@ export default function Home() {
     },
     {
       title: "Creating a better environment",
-      body: "A good environment is necessary for maintaining good mental and physical health.",
+      body: "Good environment is necessary for maintaining good mental and physical health.",
       actions: ["/action/environment"],
     },
     // Add more initiatives as needed
@@ -35,44 +35,34 @@ export default function Home() {
       </Head>
       <Hero />
 
-      <div
+      <div //statistics
         id="stats"
         className="mt-8">
         <div className="grid sm:grid-cols-1 lg:grid-cols-3">
           <Statistics
             text="Thailand emitted around"
             title="459.9 metric tons"
-            body="of carbon emissions in 2022"
+            body="of carbon emissions in 2022 ✈️"
             imageIndex={0}
           />
           <Statistics
             text="Thailand created around"
             title="26 million metric tons"
-            body="of waste in 2022"
+            body="of waste in 2022 🏝️"
             imageIndex={1}
           />
           <Statistics
             text="There were"
             title="2,837 fire alerts reported"
-            body="in 2022"
+            body="in 2022 🚒"
             imageIndex={2}
           />
         </div>
-        <div className="mt-8">
-          <SDG
-            color="lime-950"
-            question="INTRODUCING"
-            title="SDG13"
-            imageSrc={UN}
-            details="SDG 13 is Sustainable Development Goal 13: Climate Action. It aims to take urgent action to combat climate change and its impacts. And Thailand is a vulnerable country to climate change, so SDG13 will help taking steps to..."
-          />
-        </div>
       </div>
-      <hr className="my-8" />
-      <div
+      <div //initiatives
         id="init"
         className="mt-8">
-        <div className="pb-4 text-center md:px-8 lg:px-16">
+        <div className="pb-4 text-center text-neutral-500 md:px-8 lg:px-16">
           <p className="text-base">Around the country</p>
           <h1 className="text-2xl font-semibold">
             Initiatives to combat climate change in Thailand
@@ -87,17 +77,24 @@ export default function Home() {
           ))}
         </div>
       </div>
-      <hr className="my-8" />
-      <div
+      <div className="mt-8">
+        <SDG
+          color="lime-950"
+          question="ANY PLANS?"
+          title="COMES IN SDG13"
+          imageSrc={UN}
+          details="SDG 13 is Sustainable Development Goal 13: Climate Action. It aims to take urgent action to combat climate change and its impacts. And Thailand is a vulnerable country to climate change, so SDG13 will help taking steps to."
+        />
+      </div>
+      <div //quotes
         id="quotes"
-        className="mt-8 h-[500px]">
-        <div className="pb-4 text-center md:px-8 lg:px-16">
+        className="mt-8 h-auto">
+        <div className="pb-4 text-center text-neutral-500 md:px-8 lg:px-16">
           <p className="text-base">Important public figures of Thailand</p>
           <h1 className="text-2xl font-semibold">What people are saying</h1>
         </div>
         <Quotes />
       </div>
-      <hr className="my-8" />
     </Layout>
   );
 }

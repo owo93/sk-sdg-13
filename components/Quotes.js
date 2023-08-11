@@ -54,7 +54,7 @@ export default function Quotes() {
 
   return (
     <div className="mx-auto flex w-full flex-col items-center">
-      <div className="inline-flex max-h-[300px] w-[500px] flex-col items-start justify-start gap-4 overflow-hidden rounded-2xl border border-gray-200 bg-white p-6 shadow-md">
+      <div className="inline-flex h-[300px] w-[500px] flex-col items-start justify-start gap-4 overflow-hidden rounded-2xl border border-gray-200 bg-white p-6 shadow-md">
         <div className="flex items-center gap-4">
           <div className="relative h-16 w-16 overflow-hidden rounded-full">
             <Image
@@ -69,12 +69,12 @@ export default function Quotes() {
             <div className="text-2xl font-semibold text-neutral-700">
               {currentQuote.name}
             </div>
-            <div className="text-base font-semibold text-neutral-400">
+            <div className="text-base font-semibold text-neutral-500">
               {currentQuote.occupation}
             </div>
           </div>
         </div>
-        <div className="max-h-[600px] max-w-[400px] overflow-y-auto text-2xl font-normal tracking-tight text-neutral-500">
+        <div className="max-h-[600px] max-w-[400px] overflow-y-auto text-2xl font-normal tracking-tight text-neutral-700">
           {currentQuote.details}
         </div>
       </div>
