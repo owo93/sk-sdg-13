@@ -61,6 +61,7 @@ export function ImageCard({ title, body, bullet, image, varient }) {
           <div className="w-4/12 px-2">
             <Image
               src={image}
+              alt={title}
               width={440}
               height={330}
               className="rounded-lg"
@@ -73,6 +74,7 @@ export function ImageCard({ title, body, bullet, image, varient }) {
           <div className="w-4/12 px-2">
             <Image
               src={image}
+              alt={title}
               width={440}
               height={330}
               className="rounded-lg"
