@@ -6,9 +6,9 @@ import background2 from "/public/images/HeroBG2.png";
 import background3 from "/public/images/HeroBG3.png";
 
 const typedStrings = [
-  "are increasing the emissions in Rama IX rd.",
+  "are increasing the emissions on Rama IX rd.",
   "are destroying the ecosystems in Chiang Mai",
-  "need to start taking action, climate action",
+  "need to start taking action... climate action",
 ];
 
 const backgrounds = [background1, background2, background3]; // List of background images

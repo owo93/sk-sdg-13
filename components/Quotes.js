@@ -20,7 +20,7 @@ const quotesData = [
     avatar: "/images/avatar3.png",
     name: "Chadchart Sittipunt",
     occupation: "Current governor of Bangkok",
-    details: "The smallest gesture has big payoff in climate change battle.",
+    details: "The smallest gesture has a big payoff in climate change battle.",
   },
   {
     avatar: "/images/avatar4.png",

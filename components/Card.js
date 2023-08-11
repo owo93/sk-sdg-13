@@ -39,3 +39,60 @@ export default function Card({ title, body, actions }) {
     </div>
   );
 }
+
+export function ImageCard({ title, body, bullet, image, varient }) {
+  return (
+    <div className="px-8 py-4">
+      {varient == "text_left" && (
+        <div className="min-h-300 flex items-center justify-center self-start rounded-lg border border-gray-200 bg-neutral-50 p-4 shadow-md">
+          <article className="prose prose-zinc w-8/12 px-2">
+            <h3 className="text-[40px] font-bold">{title}</h3>
+            <p className="text-base">{body}</p>
+            <ul className="list-disc pl-6">
+              {bullet?.map((item, index) => (
+                <li
+                  key={index}
+                  className="text-base">
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </article>
+          <div className="w-4/12 px-2">
+            <Image
+              src={image}
+              width={440}
+              height={330}
+              className="rounded-lg"
+            />
+          </div>
+        </div>
+      )}
+      {varient == "text_right" && (
+        <div className="min-h-300 flex items-center justify-center self-start rounded-lg border border-gray-200 bg-neutral-50 p-4 shadow-md">
+          <div className="w-4/12 px-2">
+            <Image
+              src={image}
+              width={440}
+              height={330}
+              className="rounded-lg"
+            />
+          </div>
+          <article className="prose prose-zinc w-8/12 px-2">
+            <h3 className="text-[40px] font-bold">{title}</h3>
+            <p className="text-base">{body}</p>
+            <ul className="list-disc pl-6">
+              {bullet?.map((item, index) => (
+                <li
+                  key={index}
+                  className="text-base">
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </article>
+        </div>
+      )}
+    </div>
+  );
+}
