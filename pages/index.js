@@ -67,11 +67,12 @@ export default function Home() {
             Initiatives to combat climate change in Thailand
           </h1>
         </div>
-        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:px-4 lg:grid-cols-3 lg:px-8">
+        <div className="grid grid-cols-1 gap-4 p-4 md:grid-cols-2 md:px-8 lg:grid-cols-3 lg:px-16">
           {initiatives.map((initiative, index) => (
             <Card
               key={index}
               {...initiative}
+              className="p-4 md:p-0"
             />
           ))}
         </div>
