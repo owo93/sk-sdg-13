@@ -54,7 +54,7 @@ export default function Home() {
           <Statistics
             text="There were"
             title="2,837 fire alerts reported"
-            body="in 1 year 🚒"
+            body="in 2022 🚒"
             imageIndex={2}
           />
         </div>
