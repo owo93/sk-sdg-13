@@ -22,7 +22,7 @@ export default function Home() {
     },
     {
       title: "Creating a better environment",
-      body: "Good environment is necessary for maintaining good mental and physical health.",
+      body: "A good environment is necessary for maintaining good mental and physical health.",
       actions: ["/action/environment"],
     },
     // Add more initiatives as needed
@@ -42,29 +42,29 @@ export default function Home() {
           <Statistics
             text="Thailand emitted around"
             title="459.9 metric tons"
-            body="of carbon emissions in 2022 ✈️"
+            body="of carbon emissions in 2022"
             imageIndex={0}
           />
           <Statistics
             text="Thailand created around"
             title="26 million metric tons"
-            body="of waste in 2022 🏝️"
+            body="of waste in 2022"
             imageIndex={1}
           />
           <Statistics
             text="There were"
             title="2,837 fire alerts reported"
-            body="in 2022 🚒"
+            body="in 2022"
             imageIndex={2}
           />
         </div>
         <div className="mt-8">
           <SDG
             color="lime-950"
-            question="ANY PLANS?"
-            title="COMES IN SDG13"
+            question="INTRODUCING"
+            title="SDG13"
             imageSrc={UN}
-            details="SDG 13 is Sustainable Development Goal 13: Climate Action. It aims to take urgent action to combat climate change and its impacts. And Thailand is a vulnerable country to climate change, so SDG13 will help taking steps to."
+            details="SDG 13 is Sustainable Development Goal 13: Climate Action. It aims to take urgent action to combat climate change and its impacts. And Thailand is a vulnerable country to climate change, so SDG13 will help taking steps to..."
           />
         </div>
       </div>

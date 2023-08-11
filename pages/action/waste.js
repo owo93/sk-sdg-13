@@ -40,7 +40,7 @@ export default function Waste() {
         <ImageCard
           title={"National Zero Waste Action Plan:"}
           body={
-            "National Zero Waste Action Plan: The National Zero Waste Action Plan is a government initiative that aims to reduce waste in Thailand by 50% by 2030. The plan includes a number of measures, such as increasing recycling rates, reducing single-use plastics, and promoting composting. The NZWAP is a comprehensive plan that aims to address the root causes of waste in Thailand. The plan is ambitious, but it is achievable with the support of the government, businesses, and the public. NZWAP is a promising initiative that has the potential to make a significant impact on the environment and the quality of life in Thailand."
+            "The National Zero Waste Action Plan is a government initiative that aims to reduce waste in Thailand by 50% by 2030. The plan includes a number of measures, such as increasing recycling rates, reducing single-use plastics, and promoting composting. The NZWAP is a comprehensive plan that aims to address the root causes of waste in Thailand. The plan is ambitious, but it is achievable with the support of the government, businesses, and the public. NZWAP is a promising initiative that has the potential to make a significant impact on the environment and the quality of life in Thailand."
           }
           image={Waste3}
           varient={"text_left"}

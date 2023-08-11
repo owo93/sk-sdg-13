@@ -21,7 +21,7 @@ export default function Energy() {
         <ImageCard
           title={"SCG Zero Burn: "}
           body={
-            "SCG [largest and oldest cement and building material company in Thailand] created a project that will help reduce agricultural burning in Thailand. The project involves collecting rice straw, sugarcane leaves, corncobs, and other agricultural waste to produce energy pellets. These pellets can then be used as an alternative fuel for large industrial factories, such as cement factories. The project has several benefits. First, it will help to reduce agricultural burning, which is a major source of air pollution in Thailand. Second, it will create jobs in the agricultural sector. Third, it will help to promote the use of renewable energy in Thailand."
+            "SCG [the largest and oldest cement and building material company in Thailand] created a project that will help reduce agricultural burning in Thailand. The project involves collecting rice straw, sugarcane leaves, corncobs, and other agricultural waste to produce energy pellets. These pellets can then be used as an alternative fuel for large industrial factories, such as cement factories. The project has several benefits. First, it will help to reduce agricultural burning, which is a major source of air pollution in Thailand. Second, it will create jobs in the agricultural sector. Third, it will help to promote the use of renewable energy in Thailand."
           }
           image={Energy1}
           varient={"text_left"}
