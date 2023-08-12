@@ -58,10 +58,10 @@ export function ImageCard({ title, body, bullet, image, varient }) {
         </div>
         <article
           className={`lg:w-8/12" prose prose-zinc w-full ${
-            isTextRight ? "pr-2" : "pl-2"
+            isTextRight ? "pr-4" : "pl-4"
           }`}>
-          <h1 className="text-3xl font-bold">{title}</h1>
-          <p className="text-base">{body}</p>
+          <h1 className="text-3xl font-bold text-neutral-700">{title}</h1>
+          <p className="text-base text-neutral-500">{body}</p>
           <ul className="list-disc pl-6">
             {bullet?.map((item, index) => (
               <li
