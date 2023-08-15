@@ -34,7 +34,6 @@ export default function Home() {
         <title>SK SDG 13</title>
       </Head>
       <Hero />
-
       <div //statistics
         id="stats"
         className="mt-8">
@@ -68,11 +67,12 @@ export default function Home() {
             Initiatives to combat climate change in Thailand
           </h1>
         </div>
-        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:px-8 lg:grid-cols-3 lg:px-16">
+        <div className="grid grid-cols-1 gap-4 p-4 md:grid-cols-2 md:px-8 lg:grid-cols-3 lg:px-16">
           {initiatives.map((initiative, index) => (
             <Card
               key={index}
               {...initiative}
+              className="p-4 md:p-0"
             />
           ))}
         </div>
@@ -89,7 +89,7 @@ export default function Home() {
       <div //quotes
         id="quotes"
         className="mt-8 h-auto">
-        <div className="pb-4 text-center text-neutral-500 md:px-8 lg:px-16">
+        <div className="pb-4 text-center text-neutral-500 md:px-4 lg:px-8">
           <p className="text-base">Important public figures of Thailand</p>
           <h1 className="text-2xl font-semibold">What people are saying</h1>
         </div>

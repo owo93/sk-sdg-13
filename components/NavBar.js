@@ -20,10 +20,10 @@ export default function NavBar() {
             <Link href="#stats">Statistics</Link>
           </li>
           <li className="p-4 lg:p-6">
-            <Link href="#solution">Solution</Link>
+            <Link href="#init">Initiatives</Link>
           </li>
           <li className="p-4 lg:p-6">
-            <Link href="#init">Initiatives</Link>
+            <Link href="#solution">Solution</Link>
           </li>
           <li className="p-4 lg:p-6">
             <Link href="#quotes">Quotes</Link>
@@ -60,10 +60,10 @@ export default function NavBar() {
               <Link href="#stats">Statistics</Link>
             </li>
             <li className="p-4 lg:p-6">
-              <Link href="#solution">Solution</Link>
+              <Link href="#init">Initiatives</Link>
             </li>
             <li className="p-4 lg:p-6">
-              <Link href="#init">Initiatives</Link>
+              <Link href="#solution">Solution</Link>
             </li>
             <li className="p-4 lg:p-6">
               <Link href="#about">About</Link>
