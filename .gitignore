@@ -34,3 +34,4 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 .vscode/*
+sk-sdg-13.code-workspace
