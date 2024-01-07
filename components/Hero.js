@@ -40,7 +40,6 @@ export default function Hero() {
           objectFit="cover"
           quality={100}
           className="-z-20"
-          loading="eager"
           priority
         />
         <div className="absolute inset-0 bg-black opacity-20 transition-opacity duration-1000"></div>

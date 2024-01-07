@@ -35,4 +35,5 @@ yarn-error.log*
 next-env.d.ts
 .vscode/*
 
+sk-sdg-13.code-workspace
 *.code-workspace
